@@ -1,5 +1,5 @@
 name: Workflow local
-on: [push, workflow_dipatch]
+on: [push, workflow_dispatch]
 jobs:
   buildJob:
     runs-on: ubuntu-latest
